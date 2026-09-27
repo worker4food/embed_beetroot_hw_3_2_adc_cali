@@ -1,0 +1,1054 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 803 731" style="width: 100%; height: 100%; cursor: grab; user-select: none; touch-action: none; display: block;" width="803" height="731.2000122070312">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 727.2)">
+<title>v_dyi_vs_linear</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-727.2 799,-727.2 799,4 -4,4"/>
+<text xml:space="preserve" text-anchor="middle" x="397.5" y="-706.6" font-family="Times,serif" font-size="14.00">v_dyi vs linear fit through (499, 440) and (3512, 2850)</text>
+<!-- ax_o -->
+<!-- ax_x -->
+<!-- ax_o&#45;&#45;ax_x -->
+<g id="edge1" class="edge">
+
+<path fill="none" stroke="black" d="M122.54,-68.4C146.67,-68.4 752.63,-68.4 776.29,-68.4"/>
+</g>
+<!-- ax_y -->
+<!-- ax_o&#45;&#45;ax_y -->
+<g id="edge2" class="edge">
+
+<path fill="none" stroke="black" d="M121.8,-69.09C121.8,-91.62 121.8,-657.63 121.8,-679.74"/>
+</g>
+<!-- x_lbl -->
+<g id="node4" class="node">
+
+<text xml:space="preserve" text-anchor="middle" x="449.4" y="-13.8" font-family="Times,serif" font-size="14.00">raw ADC value (12-bit)</text>
+</g>
+<!-- y_lbl -->
+<g id="node5" class="node">
+
+<text xml:space="preserve" text-anchor="middle" x="42.6" y="-370.2" font-family="Times,serif" font-size="14.00">voltage, mV</text>
+</g>
+<!-- xt_0 -->
+<g id="node6" class="node">
+
+<text xml:space="preserve" text-anchor="middle" x="121.8" y="-43.8" font-family="Times,serif" font-size="10.00">0</text>
+</g>
+<!-- xt_1000 -->
+<g id="node7" class="node">
+
+<text xml:space="preserve" text-anchor="middle" x="281.79" y="-43.8" font-family="Times,serif" font-size="10.00">1000</text>
+</g>
+<!-- xt_2000 -->
+<g id="node8" class="node">
+
+<text xml:space="preserve" text-anchor="middle" x="441.77" y="-43.8" font-family="Times,serif" font-size="10.00">2000</text>
+</g>
+<!-- xt_3000 -->
+<g id="node9" class="node">
+
+<text xml:space="preserve" text-anchor="middle" x="601.83" y="-43.8" font-family="Times,serif" font-size="10.00">3000</text>
+</g>
+<!-- xt_4095 -->
+<g id="node10" class="node">
+
+<text xml:space="preserve" text-anchor="middle" x="777" y="-43.8" font-family="Times,serif" font-size="10.00">4095</text>
+</g>
+<!-- yt_1000 -->
+<g id="node11" class="node">
+
+<text xml:space="preserve" text-anchor="middle" x="93" y="-245.4" font-family="Times,serif" font-size="10.00">1000</text>
+</g>
+<!-- yt_2000 -->
+<g id="node12" class="node">
+
+<text xml:space="preserve" text-anchor="middle" x="93" y="-425.4" font-family="Times,serif" font-size="10.00">2000</text>
+</g>
+<!-- yt_3000 -->
+<g id="node13" class="node">
+
+<text xml:space="preserve" text-anchor="middle" x="93" y="-605.4" font-family="Times,serif" font-size="10.00">3000</text>
+</g>
+<!-- yt_3400 -->
+<g id="node14" class="node">
+
+<text xml:space="preserve" text-anchor="middle" x="93" y="-677.4" font-family="Times,serif" font-size="10.00">3400</text>
+</g>
+<!-- lg_dyi_a -->
+<g id="node15" class="node">
+
+<ellipse fill="#dc2626" stroke="#dc2626" cx="157.8" cy="-615.6" rx="0.36" ry="0.36"/>
+</g>
+<!-- lg_dyi_b -->
+<g id="node16" class="node">
+
+<ellipse fill="#dc2626" stroke="#dc2626" cx="201" cy="-615.6" rx="0.36" ry="0.36"/>
+</g>
+<!-- lg_dyi_a&#45;&#45;lg_dyi_b -->
+<g id="edge3" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="2" d="M158.55,-615.6C163.93,-615.6 196.54,-615.6 200.59,-615.6"/>
+</g>
+<!-- lg_dyi_t -->
+<g id="node17" class="node">
+
+<text xml:space="preserve" text-anchor="middle" x="344.28" y="-612.3" font-family="Times,serif" font-size="11.00">v_dyi: handmade calibration (piecewise linear)</text>
+</g>
+<!-- lg_lin_a -->
+<g id="node18" class="node">
+
+<ellipse fill="#16a34a" stroke="#16a34a" cx="157.8" cy="-586.8" rx="0.36" ry="0.36"/>
+</g>
+<!-- lg_lin_b -->
+<g id="node19" class="node">
+
+<ellipse fill="#16a34a" stroke="#16a34a" cx="201" cy="-586.8" rx="0.36" ry="0.36"/>
+</g>
+<!-- lg_lin_a&#45;&#45;lg_lin_b -->
+<g id="edge4" class="edge">
+
+<path fill="none" stroke="#16a34a" stroke-width="2" stroke-dasharray="5,2" d="M158.55,-586.8C163.93,-586.8 196.54,-586.8 200.59,-586.8"/>
+</g>
+<!-- lg_lin_t -->
+<g id="node20" class="node">
+
+<text xml:space="preserve" text-anchor="middle" x="301.08" y="-583.5" font-family="Times,serif" font-size="11.00">linear: v = 0.7999 * raw + 40.9</text>
+</g>
+<!-- dyi_p0 -->
+<g id="node21" class="node">
+
+<g id="a_node21"><a xlink:title="raw=0, v_dyi=0 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="121.8" cy="-68.4" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p1 -->
+<g id="node22" class="node">
+
+<g id="a_node22"><a xlink:title="raw=105, v_dyi=93 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="138.58" cy="-85.18" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p0&#45;&#45;dyi_p1 -->
+<g id="edge5" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M123.6,-70.2C126.84,-73.44 133.65,-80.24 136.85,-83.44"/>
+</g>
+<!-- dyi_p2 -->
+<g id="node23" class="node">
+
+<g id="a_node23"><a xlink:title="raw=107, v_dyi=94 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="138.94" cy="-85.32" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p1&#45;&#45;dyi_p2 -->
+<g id="edge6" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M138.76,-85.25C138.8,-85.27 138.85,-85.28 138.88,-85.3"/>
+</g>
+<!-- dyi_p3 -->
+<g id="node24" class="node">
+
+<g id="a_node24"><a xlink:title="raw=308, v_dyi=272 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="171.05" cy="-117.36" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p2&#45;&#45;dyi_p3 -->
+<g id="edge7" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M140.67,-87.04C146.29,-92.66 164.06,-110.38 169.47,-115.78"/>
+</g>
+<!-- dyi_p4 -->
+<g id="node25" class="node">
+
+<g id="a_node25"><a xlink:title="raw=467, v_dyi=412 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="196.54" cy="-142.56" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p3&#45;&#45;dyi_p4 -->
+<g id="edge8" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M172.72,-119.01C177.33,-123.57 190.17,-136.27 194.83,-140.87"/>
+</g>
+<!-- dyi_p5 -->
+<g id="node26" class="node">
+
+<g id="a_node26"><a xlink:title="raw=553, v_dyi=486 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="210.29" cy="-155.88" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p4&#45;&#45;dyi_p5 -->
+<g id="edge9" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M198.23,-144.19C200.87,-146.75 205.94,-151.67 208.59,-154.23"/>
+</g>
+<!-- dyi_p6 -->
+<g id="node27" class="node">
+
+<g id="a_node27"><a xlink:title="raw=637, v_dyi=559 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="223.76" cy="-168.98" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p5&#45;&#45;dyi_p6 -->
+<g id="edge10" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M211.94,-157.49C214.53,-160 219.5,-164.84 222.09,-167.36"/>
+</g>
+<!-- dyi_p7 -->
+<g id="node28" class="node">
+
+<g id="a_node28"><a xlink:title="raw=639, v_dyi=560 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="224.04" cy="-169.2" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p6&#45;&#45;dyi_p7 -->
+<g id="edge11" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M223.9,-169.09C223.94,-169.12 223.97,-169.15 224,-169.17"/>
+</g>
+<!-- dyi_p8 -->
+<g id="node29" class="node">
+
+<g id="a_node29"><a xlink:title="raw=727, v_dyi=636 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="238.16" cy="-182.88" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p7&#45;&#45;dyi_p8 -->
+<g id="edge12" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M225.77,-170.88C228.48,-173.5 233.69,-178.55 236.41,-181.19"/>
+</g>
+<!-- dyi_p9 -->
+<g id="node30" class="node">
+
+<g id="a_node30"><a xlink:title="raw=863, v_dyi=753 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="259.9" cy="-203.98" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p8&#45;&#45;dyi_p9 -->
+<g id="edge13" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M239.86,-184.54C243.87,-188.42 253.84,-198.1 258.02,-202.15"/>
+</g>
+<!-- dyi_p10 -->
+<g id="node31" class="node">
+
+<g id="a_node31"><a xlink:title="raw=871, v_dyi=760 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="261.2" cy="-205.2" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p9&#45;&#45;dyi_p10 -->
+<g id="edge14" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M260.99,-205.01C261.05,-205.07 261.1,-205.11 261.14,-205.15"/>
+</g>
+<!-- dyi_p11 -->
+<g id="node32" class="node">
+
+<g id="a_node32"><a xlink:title="raw=1043, v_dyi=906 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="288.7" cy="-231.48" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p10&#45;&#45;dyi_p11 -->
+<g id="edge15" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M263,-206.92C267.97,-211.67 281.83,-224.92 286.85,-229.71"/>
+</g>
+<!-- dyi_p12 -->
+<g id="node33" class="node">
+
+<g id="a_node33"><a xlink:title="raw=1164, v_dyi=1005 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="308.07" cy="-249.34" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p11&#45;&#45;dyi_p12 -->
+<g id="edge16" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M290.49,-233.13C294.23,-236.58 302.86,-244.53 306.45,-247.84"/>
+</g>
+<!-- dyi_p13 -->
+<g id="node34" class="node">
+
+<g id="a_node34"><a xlink:title="raw=1227, v_dyi=1057 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="318.15" cy="-258.7" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p12&#45;&#45;dyi_p13 -->
+<g id="edge17" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M310.01,-251.14C311.84,-252.84 314.56,-255.37 316.35,-257.02"/>
+</g>
+<!-- dyi_p14 -->
+<g id="node35" class="node">
+
+<g id="a_node35"><a xlink:title="raw=1231, v_dyi=1060 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="318.8" cy="-259.2" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p13&#45;&#45;dyi_p14 -->
+<g id="edge18" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M318.47,-258.95C318.55,-259.01 318.63,-259.07 318.69,-259.12"/>
+</g>
+<!-- dyi_p15 -->
+<g id="node36" class="node">
+
+<g id="a_node36"><a xlink:title="raw=1407, v_dyi=1205 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="346.95" cy="-285.34" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p14&#45;&#45;dyi_p15 -->
+<g id="edge19" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M320.64,-260.91C325.73,-265.64 339.92,-278.81 345.06,-283.58"/>
+</g>
+<!-- dyi_p16 -->
+<g id="node37" class="node">
+
+<g id="a_node37"><a xlink:title="raw=1440, v_dyi=1232 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="352.2" cy="-290.16" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p15&#45;&#45;dyi_p16 -->
+<g id="edge20" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M348.61,-286.86C349.19,-287.39 349.84,-287.99 350.42,-288.53"/>
+</g>
+<!-- dyi_p17 -->
+<g id="node38" class="node">
+
+<g id="a_node38"><a xlink:title="raw=1501, v_dyi=1282 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="362" cy="-299.16" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p16&#45;&#45;dyi_p17 -->
+<g id="edge21" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M354.09,-291.9C355.87,-293.53 358.51,-295.96 360.24,-297.55"/>
+</g>
+<!-- dyi_p18 -->
+<g id="node39" class="node">
+
+<g id="a_node39"><a xlink:title="raw=1502, v_dyi=1283 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="362.14" cy="-299.38" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p17&#45;&#45;dyi_p18 -->
+<g id="edge22" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M362.07,-299.27C362.09,-299.29 362.1,-299.32 362.12,-299.34"/>
+</g>
+<!-- dyi_p19 -->
+<g id="node40" class="node">
+
+<g id="a_node40"><a xlink:title="raw=1503, v_dyi=1283 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="362.28" cy="-299.38" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p18&#45;&#45;dyi_p19 -->
+<g id="edge23" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M362.21,-299.38C362.23,-299.38 362.25,-299.38 362.26,-299.38"/>
+</g>
+<!-- dyi_p20 -->
+<g id="node41" class="node">
+
+<g id="a_node41"><a xlink:title="raw=1505, v_dyi=1285 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="362.57" cy="-299.66" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p19&#45;&#45;dyi_p20 -->
+<g id="edge24" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M362.43,-299.52C362.46,-299.56 362.5,-299.59 362.53,-299.62"/>
+</g>
+<!-- dyi_p21 -->
+<g id="node42" class="node">
+
+<g id="a_node42"><a xlink:title="raw=1630, v_dyi=1387 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="382.59" cy="-318.02" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p20&#45;&#45;dyi_p21 -->
+<g id="edge25" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M364.42,-301.36C368.29,-304.91 377.2,-313.08 380.92,-316.49"/>
+</g>
+<!-- dyi_p22 -->
+<g id="node43" class="node">
+
+<g id="a_node43"><a xlink:title="raw=1631, v_dyi=1388 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="382.73" cy="-318.24" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p21&#45;&#45;dyi_p22 -->
+<g id="edge26" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M382.66,-318.13C382.68,-318.16 382.7,-318.19 382.71,-318.21"/>
+</g>
+<!-- dyi_p23 -->
+<g id="node44" class="node">
+
+<g id="a_node44"><a xlink:title="raw=1634, v_dyi=1391 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="383.24" cy="-318.82" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p22&#45;&#45;dyi_p23 -->
+<g id="edge27" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M382.98,-318.53C383.05,-318.6 383.11,-318.67 383.16,-318.73"/>
+</g>
+<!-- dyi_p24 -->
+<g id="node45" class="node">
+
+<g id="a_node45"><a xlink:title="raw=1635, v_dyi=1392 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="383.38" cy="-318.96" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p23&#45;&#45;dyi_p24 -->
+<g id="edge28" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M383.31,-318.89C383.33,-318.91 383.34,-318.92 383.36,-318.94"/>
+</g>
+<!-- dyi_p25 -->
+<g id="node46" class="node">
+
+<g id="a_node46"><a xlink:title="raw=1637, v_dyi=1393 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="383.74" cy="-319.1" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p24&#45;&#45;dyi_p25 -->
+<g id="edge29" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M383.56,-319.03C383.6,-319.05 383.65,-319.07 383.68,-319.08"/>
+</g>
+<!-- dyi_p26 -->
+<g id="node47" class="node">
+
+<g id="a_node47"><a xlink:title="raw=1663, v_dyi=1415 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="387.92" cy="-323.14" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p25&#45;&#45;dyi_p26 -->
+<g id="edge30" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M385.44,-320.74C385.73,-321.02 386.03,-321.31 386.31,-321.59"/>
+</g>
+<!-- dyi_p27 -->
+<g id="node48" class="node">
+
+<g id="a_node48"><a xlink:title="raw=1752, v_dyi=1488 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="402.1" cy="-336.24" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p26&#45;&#45;dyi_p27 -->
+<g id="edge31" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M389.65,-324.74C392.38,-327.26 397.62,-332.1 400.35,-334.62"/>
+</g>
+<!-- dyi_p28 -->
+<g id="node49" class="node">
+
+<g id="a_node49"><a xlink:title="raw=1829, v_dyi=1551 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="414.41" cy="-347.54" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p27&#45;&#45;dyi_p28 -->
+<g id="edge32" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M404.02,-338.01C406.4,-340.19 410.42,-343.88 412.7,-345.97"/>
+</g>
+<!-- dyi_p29 -->
+<g id="node50" class="node">
+
+<g id="a_node50"><a xlink:title="raw=1918, v_dyi=1624 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="428.67" cy="-360.72" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p28&#45;&#45;dyi_p29 -->
+<g id="edge33" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M416.16,-349.16C418.9,-351.69 424.16,-356.55 426.91,-359.09"/>
+</g>
+<!-- dyi_p30 -->
+<g id="node51" class="node">
+
+<g id="a_node51"><a xlink:title="raw=1927, v_dyi=1631 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="430.11" cy="-361.94" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p29&#45;&#45;dyi_p30 -->
+<g id="edge34" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M429.88,-361.75C429.95,-361.81 430.01,-361.86 430.05,-361.89"/>
+</g>
+<!-- dyi_p31 -->
+<g id="node52" class="node">
+
+<g id="a_node52"><a xlink:title="raw=2055, v_dyi=1736 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="450.63" cy="-380.88" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p30&#45;&#45;dyi_p31 -->
+<g id="edge35" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M432,-363.69C435.97,-367.35 445.11,-375.78 448.91,-379.3"/>
+</g>
+<!-- dyi_p32 -->
+<g id="node53" class="node">
+
+<g id="a_node53"><a xlink:title="raw=2089, v_dyi=1764 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="456.03" cy="-385.92" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p31&#45;&#45;dyi_p32 -->
+<g id="edge36" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M452.34,-382.47C452.93,-383.03 453.6,-383.65 454.2,-384.21"/>
+</g>
+<!-- dyi_p33 -->
+<g id="node54" class="node">
+
+<g id="a_node54"><a xlink:title="raw=2091, v_dyi=1766 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="456.39" cy="-386.28" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p32&#45;&#45;dyi_p33 -->
+<g id="edge37" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M456.21,-386.1C456.25,-386.14 456.3,-386.19 456.33,-386.22"/>
+</g>
+<!-- dyi_p34 -->
+<g id="node55" class="node">
+
+<g id="a_node55"><a xlink:title="raw=2159, v_dyi=1822 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="467.26" cy="-396.36" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p33&#45;&#45;dyi_p34 -->
+<g id="edge38" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M458.09,-387.85C460.09,-389.72 463.42,-392.8 465.46,-394.7"/>
+</g>
+<!-- dyi_p35 -->
+<g id="node56" class="node">
+
+<g id="a_node56"><a xlink:title="raw=2167, v_dyi=1829 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="468.56" cy="-397.58" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p34&#45;&#45;dyi_p35 -->
+<g id="edge39" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M468.35,-397.39C468.41,-397.45 468.46,-397.5 468.5,-397.53"/>
+</g>
+<!-- dyi_p36 -->
+<g id="node57" class="node">
+
+<g id="a_node57"><a xlink:title="raw=2201, v_dyi=1857 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="473.96" cy="-402.7" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p35&#45;&#45;dyi_p36 -->
+<g id="edge40" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M470.26,-399.2C470.86,-399.76 471.52,-400.39 472.13,-400.97"/>
+</g>
+<!-- dyi_p37 -->
+<g id="node58" class="node">
+
+<g id="a_node58"><a xlink:title="raw=2360, v_dyi=1988 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="499.37" cy="-426.24" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p36&#45;&#45;dyi_p37 -->
+<g id="edge41" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M475.62,-404.24C480.22,-408.5 493.02,-420.36 497.66,-424.66"/>
+</g>
+<!-- dyi_p38 -->
+<g id="node59" class="node">
+
+<g id="a_node59"><a xlink:title="raw=2367, v_dyi=1994 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="500.52" cy="-427.32" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p37&#45;&#45;dyi_p38 -->
+<g id="edge42" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M500.34,-427.15C500.4,-427.2 500.44,-427.24 500.47,-427.27"/>
+</g>
+<!-- dyi_p39 -->
+<g id="node60" class="node">
+
+<g id="a_node60"><a xlink:title="raw=2379, v_dyi=2004 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="502.47" cy="-429.12" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p38&#45;&#45;dyi_p39 -->
+<g id="edge43" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M502.38,-429.04C502.41,-429.07 502.43,-429.09 502.45,-429.1"/>
+</g>
+<!-- dyi_p40 -->
+<g id="node61" class="node">
+
+<g id="a_node61"><a xlink:title="raw=2450, v_dyi=2062 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="513.77" cy="-439.56" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p39&#45;&#45;dyi_p40 -->
+<g id="edge44" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M504.23,-430.75C506.32,-432.68 509.78,-435.87 511.9,-437.84"/>
+</g>
+<!-- dyi_p41 -->
+<g id="node62" class="node">
+
+<g id="a_node62"><a xlink:title="raw=2460, v_dyi=2070 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="515.43" cy="-441" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p40&#45;&#45;dyi_p41 -->
+<g id="edge45" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M515.36,-440.94C515.38,-440.96 515.4,-440.97 515.41,-440.98"/>
+</g>
+<!-- dyi_p42 -->
+<g id="node63" class="node">
+
+<g id="a_node63"><a xlink:title="raw=2700, v_dyi=2260 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="553.8" cy="-475.2" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p41&#45;&#45;dyi_p42 -->
+<g id="edge46" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M517.08,-442.47C523.27,-447.99 545.16,-467.5 551.85,-473.46"/>
+</g>
+<!-- dyi_p43 -->
+<g id="node64" class="node">
+
+<g id="a_node64"><a xlink:title="raw=2717, v_dyi=2273 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="556.54" cy="-477.58" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p42&#45;&#45;dyi_p43 -->
+<g id="edge47" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M555.67,-476.82C555.91,-477.03 556.13,-477.22 556.29,-477.36"/>
+</g>
+<!-- dyi_p44 -->
+<g id="node65" class="node">
+
+<g id="a_node65"><a xlink:title="raw=2735, v_dyi=2287 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="559.42" cy="-480.1" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p43&#45;&#45;dyi_p44 -->
+<g id="edge48" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M558.51,-479.3C558.76,-479.52 558.99,-479.72 559.15,-479.86"/>
+</g>
+<!-- dyi_p45 -->
+<g id="node66" class="node">
+
+<g id="a_node66"><a xlink:title="raw=2831, v_dyi=2362 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="574.76" cy="-493.56" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p44&#45;&#45;dyi_p45 -->
+<g id="edge49" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M561.3,-481.75C564.24,-484.33 569.91,-489.3 572.86,-491.9"/>
+</g>
+<!-- dyi_p46 -->
+<g id="node67" class="node">
+
+<g id="a_node67"><a xlink:title="raw=2843, v_dyi=2371 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="576.7" cy="-495.22" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p45&#45;&#45;dyi_p46 -->
+<g id="edge50" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M576.62,-495.14C576.64,-495.17 576.66,-495.19 576.68,-495.2"/>
+</g>
+<!-- dyi_p47 -->
+<g id="node68" class="node">
+
+<g id="a_node68"><a xlink:title="raw=2851, v_dyi=2378 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="578" cy="-496.44" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p46&#45;&#45;dyi_p47 -->
+<g id="edge51" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M577.79,-496.25C577.85,-496.31 577.9,-496.35 577.94,-496.39"/>
+</g>
+<!-- dyi_p48 -->
+<g id="node69" class="node">
+
+<g id="a_node69"><a xlink:title="raw=2906, v_dyi=2420 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="586.78" cy="-504" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p47&#45;&#45;dyi_p48 -->
+<g id="edge52" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M579.69,-497.9C581.28,-499.27 583.66,-501.31 585.21,-502.65"/>
+</g>
+<!-- dyi_p49 -->
+<g id="node70" class="node">
+
+<g id="a_node70"><a xlink:title="raw=3005, v_dyi=2497 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="602.62" cy="-517.82" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p48&#45;&#45;dyi_p49 -->
+<g id="edge53" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M588.72,-505.7C591.76,-508.35 597.61,-513.45 600.66,-516.12"/>
+</g>
+<!-- dyi_p50 -->
+<g id="node71" class="node">
+
+<g id="a_node71"><a xlink:title="raw=3007, v_dyi=2499 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="602.91" cy="-518.18" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p49&#45;&#45;dyi_p50 -->
+<g id="edge54" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M602.76,-518C602.8,-518.05 602.84,-518.09 602.86,-518.13"/>
+</g>
+<!-- dyi_p51 -->
+<g id="node72" class="node">
+
+<g id="a_node72"><a xlink:title="raw=3019, v_dyi=2508 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="604.85" cy="-519.84" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p50&#45;&#45;dyi_p51 -->
+<g id="edge55" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M604.77,-519.77C604.79,-519.79 604.82,-519.81 604.83,-519.82"/>
+</g>
+<!-- dyi_p52 -->
+<g id="node73" class="node">
+
+<g id="a_node73"><a xlink:title="raw=3103, v_dyi=2569 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="618.32" cy="-530.86" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p51&#45;&#45;dyi_p52 -->
+<g id="edge56" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M606.5,-521.19C608.97,-523.21 613.63,-527.02 616.3,-529.21"/>
+</g>
+<!-- dyi_p53 -->
+<g id="node74" class="node">
+
+<g id="a_node74"><a xlink:title="raw=3131, v_dyi=2588 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="622.78" cy="-534.24" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p52&#45;&#45;dyi_p53 -->
+<g id="edge57" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M620.13,-532.23C620.44,-532.47 620.76,-532.71 621.07,-532.94"/>
+</g>
+<!-- dyi_p54 -->
+<g id="node75" class="node">
+
+<g id="a_node75"><a xlink:title="raw=3211, v_dyi=2643 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="635.6" cy="-544.1" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p53&#45;&#45;dyi_p54 -->
+<g id="edge58" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M624.78,-535.78C627.26,-537.69 631.44,-540.91 633.81,-542.73"/>
+</g>
+<!-- dyi_p55 -->
+<g id="node76" class="node">
+
+<g id="a_node76"><a xlink:title="raw=3257, v_dyi=2675 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="642.94" cy="-549.94" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p54&#45;&#45;dyi_p55 -->
+<g id="edge59" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M637.6,-545.7C638.69,-546.56 640.02,-547.62 641.09,-548.46"/>
+</g>
+<!-- dyi_p56 -->
+<g id="node77" class="node">
+
+<g id="a_node77"><a xlink:title="raw=3364, v_dyi=2748 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="660.08" cy="-563.04" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p55&#45;&#45;dyi_p56 -->
+<g id="edge60" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M645.04,-551.54C648.47,-554.17 655.21,-559.32 658.37,-561.74"/>
+</g>
+<!-- dyi_p57 -->
+<g id="node78" class="node">
+
+<g id="a_node78"><a xlink:title="raw=3366, v_dyi=2750 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="660.36" cy="-563.4" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p56&#45;&#45;dyi_p57 -->
+<g id="edge61" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M660.22,-563.22C660.26,-563.26 660.29,-563.31 660.32,-563.34"/>
+</g>
+<!-- dyi_p58 -->
+<g id="node79" class="node">
+
+<g id="a_node79"><a xlink:title="raw=3452, v_dyi=2809 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="674.12" cy="-573.98" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p57&#45;&#45;dyi_p58 -->
+<g id="edge62" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M662.05,-564.7C664.57,-566.64 669.33,-570.3 672.06,-572.4"/>
+</g>
+<!-- dyi_p59 -->
+<g id="node80" class="node">
+
+<g id="a_node80"><a xlink:title="raw=3467, v_dyi=2819 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="676.49" cy="-575.86" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p58&#45;&#45;dyi_p59 -->
+<g id="edge63" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M676.12,-575.56C676.23,-575.65 676.32,-575.72 676.39,-575.78"/>
+</g>
+<!-- dyi_p60 -->
+<g id="node81" class="node">
+
+<g id="a_node81"><a xlink:title="raw=3471, v_dyi=2822 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="677.14" cy="-576.36" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p59&#45;&#45;dyi_p60 -->
+<g id="edge64" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M676.82,-576.11C676.9,-576.17 676.98,-576.23 677.04,-576.28"/>
+</g>
+<!-- dyi_p61 -->
+<g id="node82" class="node">
+
+<g id="a_node82"><a xlink:title="raw=3599, v_dyi=2895 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="697.66" cy="-589.46" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p60&#45;&#45;dyi_p61 -->
+<g id="edge65" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M679.34,-577.76C683.31,-580.3 691.63,-585.61 695.54,-588.11"/>
+</g>
+<!-- dyi_p62 -->
+<g id="node83" class="node">
+
+<g id="a_node83"><a xlink:title="raw=3620, v_dyi=2905 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="700.97" cy="-591.34" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p61&#45;&#45;dyi_p62 -->
+<g id="edge66" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M699.92,-590.74C700.21,-590.91 700.48,-591.06 700.67,-591.16"/>
+</g>
+<!-- dyi_p63 -->
+<g id="node84" class="node">
+
+<g id="a_node84"><a xlink:title="raw=3817, v_dyi=3006 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="732.51" cy="-609.48" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p62&#45;&#45;dyi_p63 -->
+<g id="edge67" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M703.04,-592.53C708.74,-595.81 724.63,-604.95 730.39,-608.26"/>
+</g>
+<!-- dyi_p64 -->
+<g id="node85" class="node">
+
+<g id="a_node85"><a xlink:title="raw=3835, v_dyi=3015 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="735.39" cy="-611.06" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p63&#45;&#45;dyi_p64 -->
+<g id="edge68" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M734.48,-610.56C734.73,-610.7 734.96,-610.83 735.12,-610.92"/>
+</g>
+<!-- dyi_p65 -->
+<g id="node86" class="node">
+
+<g id="a_node86"><a xlink:title="raw=3935, v_dyi=3067 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="751.37" cy="-620.5" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p64&#45;&#45;dyi_p65 -->
+<g id="edge69" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M737.35,-612.22C740.42,-614.03 746.32,-617.51 749.4,-619.33"/>
+</g>
+<!-- dyi_p66 -->
+<g id="node87" class="node">
+
+<g id="a_node87"><a xlink:title="raw=4077, v_dyi=3100 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="774.12" cy="-626.4" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p65&#45;&#45;dyi_p66 -->
+<g id="edge70" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M753.81,-621.13C758.21,-622.27 767.44,-624.66 771.77,-625.79"/>
+</g>
+<!-- dyi_p67 -->
+<g id="node88" class="node">
+
+<g id="a_node88"><a xlink:title="raw=4088, v_dyi=3100 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="775.85" cy="-626.4" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p66&#45;&#45;dyi_p67 -->
+<g id="edge71" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M775.78,-626.4C775.8,-626.4 775.82,-626.4 775.83,-626.4"/>
+</g>
+<!-- dyi_p68 -->
+<g id="node89" class="node">
+
+<g id="a_node89"><a xlink:title="raw=4095, v_dyi=3100 mV">
+<ellipse fill="#dc2626" stroke="#dc2626" cx="777" cy="-626.4" rx="2.16" ry="2.16"/>
+</a>
+</g>
+</g>
+<!-- dyi_p67&#45;&#45;dyi_p68 -->
+<g id="edge72" class="edge">
+
+<path fill="none" stroke="#dc2626" stroke-width="1.2" d="M776.82,-626.4C776.88,-626.4 776.92,-626.4 776.95,-626.4"/>
+</g>
+<!-- lin_0 -->
+<g id="node90" class="node">
+
+<g id="a_node90"><a xlink:title="raw=0, v=41 mV (extrapolated)">
+<ellipse fill="#16a34a" stroke="#16a34a" cx="121.8" cy="-75.74" rx="0.72" ry="0.72"/>
+</a>
+</g>
+</g>
+<!-- lin_a -->
+<g id="node91" class="node">
+
+<g id="a_node91"><a xlink:title="raw=499, v=440 mV">
+<ellipse fill="#16a34a" stroke="#16a34a" cx="201.65" cy="-147.6" rx="3.6" ry="3.6"/>
+</a>
+</g>
+</g>
+<!-- lin_0&#45;&#45;lin_a -->
+<g id="edge73" class="edge">
+
+<path fill="none" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="5,2" d="M122.7,-76.55C130.38,-83.46 185.07,-132.67 198.62,-144.87"/>
+</g>
+<!-- lin_b -->
+<g id="node92" class="node">
+
+<g id="a_node92"><a xlink:title="raw=3512, v=2850 mV">
+<ellipse fill="#16a34a" stroke="#16a34a" cx="683.69" cy="-581.4" rx="3.6" ry="3.6"/>
+</a>
+</g>
+</g>
+<!-- lin_a&#45;&#45;lin_b -->
+<g id="edge74" class="edge">
+
+<path fill="none" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="5,2" d="M204.25,-149.93C240.41,-182.48 643.19,-544.95 680.87,-578.86"/>
+</g>
+<!-- lin_1 -->
+<g id="node93" class="node">
+
+<g id="a_node93"><a xlink:title="raw=4095, v=3316 mV (extrapolated)">
+<ellipse fill="#16a34a" stroke="#16a34a" cx="777" cy="-665.35" rx="0.72" ry="0.72"/>
+</a>
+</g>
+</g>
+<!-- lin_b&#45;&#45;lin_1 -->
+<g id="edge75" class="edge">
+
+<path fill="none" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="5,2" d="M686.38,-583.82C700.73,-596.73 767.82,-657.09 776.15,-664.59"/>
+</g>
+</g>
+</svg>

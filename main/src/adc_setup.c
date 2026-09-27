@@ -95,13 +95,12 @@ esp_err_t dyi_raw_to_voltage(void *, int raw, int *voltage) {
         return ESP_OK;
     }
 
-    segment_t *p_lo = &segments[0];
-    segment_t *p_hi = &segments[1];
+    size_t i = 1;
+    while (segments[i].raw <= raw)
+        i++;
 
-    for(int i = 2; i < sizeof(segments) && p_hi->raw <= raw; i++) {
-        p_lo = p_hi;
-        p_hi = &segments[i];
-    }
+    const segment_t *p_lo = &segments[i - 1];
+    const segment_t *p_hi = &segments[i];
 
     double k = (double) (p_hi->voltage - p_lo->voltage) / (p_hi->raw - p_lo->raw);
     double b = (double) p_lo->voltage - k*p_lo->raw;
